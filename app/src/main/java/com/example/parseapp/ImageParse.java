@@ -51,7 +51,7 @@ public class ImageParse extends AppCompatActivity {
             try {
 
 //                bitmap = BitmapFactory.decodeStream((InputStream) new URL("https://iuca.kg/ru/nash-osnovatel/").getContent());
-                bitmap = BitmapFactory.decodeStream((InputStream) new URL("https://www.auca.kg/en/auca_news/4656/").getContent());
+                bitmap = BitmapFactory.decodeStream((InputStream) new URL("https://auca.kg/uploads/00012021/Бекжон.jpg").getContent());
             }catch (Exception e){e.printStackTrace();}
             return null;
         }
